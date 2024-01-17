@@ -9,11 +9,11 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'w13t@a1crgzy4d2ne%1ak+@^ao8())2ggzv)%pmm2n0p)lzfju'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'https://kidsgo.vercel.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
