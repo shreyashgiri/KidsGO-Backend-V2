@@ -150,7 +150,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "kidsgo.shreyashgiri.tech"
+    "https://kidsgo.shreyashgiri.tech"
 ]
 
 SPECTACULAR_SETTINGS = {
