@@ -13,7 +13,7 @@ SECRET_KEY = 'w13t@a1crgzy4d2ne%1ak+@^ao8())2ggzv)%pmm2n0p)lzfju'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'https://kidsgo.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'kidsgo.vercel.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'kidsgo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
