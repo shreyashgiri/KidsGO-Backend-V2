@@ -3,7 +3,9 @@ from datetime import timedelta
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+# comment
+
+load_dotenv()  
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
