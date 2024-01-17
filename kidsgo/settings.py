@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'w13t@a1crgzy4d2ne%1ak+@^ao8())2ggzv)%pmm2n0p)lzfju'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
